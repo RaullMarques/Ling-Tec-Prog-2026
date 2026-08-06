@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	
+	int a,b,c;
+	
+	a=33;
+	
+	b=21;
+	
+	c= 6;
+	
+	int soma= a+b+c;
+	
+	float media= soma / 3;
+	
+	printf("A media das variaveis e: %.2f", media );
+	
+
+		return 0;
+}
