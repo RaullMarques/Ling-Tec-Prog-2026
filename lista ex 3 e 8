@@ -1,0 +1,47 @@
+	int n, res;
+	int bit_64, bit_32, bit_16, bit_8, bit_4, bit_2, bit_1;
+
+	printf("Insira o valor a ser convertido:");
+	scanf("d%" ,&n); // -> 41
+	
+	bit_64 = res%2; //-> 1
+	res = res/2; ///-> 20
+	
+	bit_32 = res%2; //->
+	res = res/2;//->
+	
+	bit_16 = res%2;//->
+	res = res/2; //->
+	
+	bit_8 = res%2; //->
+	res = res/2; //->
+	
+	bit_4 = res%2; //->
+	res = res/2; //->
+	
+	bit_2 = res%2; //->
+	res = res/2; //->
+		
+	printf("O numero %d em bin = %d%d%d%d%d%d%d", n, res%2, bit_2, bit_4, bit_8, bit_16, bit_32, bit_64);
+	
+*/
+	
+	int x1, x2, y1, y2, p1, p2;
+	float dis;
+	
+	print("insira o valor do par ordenado (x1,y1):");
+	scanf("%d",&x1,);
+	acanf("%d",&y1);
+
+	print("insira o valor do par ordenado (x2,y2):");
+	scanf("%d",&x2);
+	scanf("%d",&y2);
+		
+	p1 = pow(x2-x1,2);
+	p2 = pow(y2-y1,2);
+	
+	dis = sqrt(p1+p2);
+	
+	printf("A distancia entre P1 e P2 = %f", dis);
+
+	
